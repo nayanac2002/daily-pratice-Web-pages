@@ -1,0 +1,38 @@
+header{
+    background-color: rgb(45, 179, 45);
+    height: 1cm;
+
+}
+
+a{
+    margin-left: 200px;
+    margin-right: 100px;
+    font-family: initial;
+    font-size: medium;
+    text-align: center;
+    margin-top: 50%;
+}
+
+body{
+background-color: cadetblue;
+}
+
+h1{
+    text-align: center;
+    color: antiquewhite;
+}
+
+img{
+    image-rendering: 20*27;
+}
+
+h4{
+    font-style: italic;
+    color: antiquewhite;
+}
+
+img{
+    image-rendering: 210*210;
+    margin-left: 300px;
+    margin-right: 100px;
+}
