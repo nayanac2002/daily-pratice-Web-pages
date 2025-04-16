@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photography Image Mapping</title>
+    <link rel="stylesheet" href="./css/demo.css">
+</head>
+
+<body>
+    <header>
+        <h1>photography Mapping Image</h1>
+        <p>Click on the different objects of the image to know about them.</p>
+    </header>
+
+   
+    <figure>
+        <img src="./Images/image.png"  alt="photography image" usemap="#photography" class="responsive-image">
+        <figcaption>Clickable areas on the objects</figcaption>
+    </figure>
+
+    <map name="photography">
+      
+        <img src="your-image.jpg" usemap="#travelmap" width="768" height="768">
+
+        <map name="travelmap">
+          <area shape="rect" coords="270,450,430,570" alt="Camera" href="https://www.britannica.com/technology/camera">
+          <area shape="circle" coords="580,500,60" alt="Coffee Cup" href="https://en.wikipedia.org/wiki/Coffee">
+          <area shape="rect" coords="250,240,310,300" alt="Photo 1" href="https://en.wikipedia.org/wiki/Coffee#Ecological_effects">
+          <area shape="rect" coords="250,310,310,370" alt="Photo 2" href="https://www.image-map.net/">
+          <area shape="rect" coords="350,330,410,390" alt="Photo 3" href="https://www.seobility.net/en/wiki/Image_Map">
+          <area shape="rect" coords="480,320,540,380" alt="Photo 4" href="https://unsplash.com/s/photos/mapping">
+        </map>
+    </map>
+
+    <footer>
+        <p>&copy; 2025 Your Company Name. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
